@@ -2,7 +2,7 @@
 This Docker-file is a proof of concept to demonstrate how easy
 an authenticating proxy-server using client certificates is being acomplished.
 
-This proof of concept comes with 4 scripts to explains the proces step by step.
+This proof of concept comes with 4 scripts to explain the proces step by step.
 
 # Usage:
 
