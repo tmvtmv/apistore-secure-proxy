@@ -1,5 +1,5 @@
 openssl genrsa -out certs/ca.key 4096
-openssl req -new -x509 -key certs/ca.key -days 365 -sha256 -subj "/C=NL/ST=Grunn/L=Grunn/O=Vnet/CN=localhost" -out certs/ca.crt
+openssl req -new -x509 -key certs/ca.key -days 365 -sha256 -subj "/C=NL/ST=SomeStage/L=Groningen/O=YourCompany/CN=localhost" -out certs/ca.crt
 
 openssl genrsa -out certs/server.key 4096
 openssl req -subj "/CN=localhost" -sha256 -new -key certs/server.key -out certs/server.csr
