@@ -10,7 +10,7 @@ This proof of concept comes with 4 scripts to explain the proces step by step.
 This script generates the required self-signed certificatase for use by Nginx 
 (the proxy server) and Curl (the client) in this proof of concept.
 
-## 2-buid-and-run.sh
+## 2-build-and-run.sh
 This script builds the Docker image and runs the docker container.
 After completion the HTTPS proxyserver is listening on port 8443.
 
